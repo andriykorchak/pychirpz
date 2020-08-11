@@ -38,15 +38,19 @@ pip install git+https://github.com/wouterboomsma/eigency
 ### OSX 
 
 On OSX, make sure you have all the relevant build tools installed and install
-[FFTW](http://www.fftw.org/) and [Boost](http://www.boost.org/). A recommended way is using Brew:
+[FFTW](http://www.fftw.org/) and [Boost](http://www.boost.org/). A recommended way is using conda:
 ```
-brew install boost fftw
+conda install -c conda-forge fftw boost
 ```
 
 Note you will probably want a bleeding-edge eigency
 ```
 pip install git+https://github.com/wouterboomsma/eigency
 ```
+
+(may require installing Cython first):
+
+`pip install cython`
 
 ## Benchmark 
 
